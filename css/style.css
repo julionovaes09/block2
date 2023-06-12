@@ -1,0 +1,38 @@
+/* Definicão das variáveis do css*/
+:root {
+    --primary-color: rgb(255 0 0);
+    --secondary-color: rgb(0 255 0);
+    --tertiaty-color:rgb(0 0 255);
+    --back-color: rgb(145, 118, 51);
+}
+
+/* Resartar as configurações do navegador*/
+* {
+background: var(--back-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    margin-bottom: 20px;  
+    background-color: blue;
+}
+
